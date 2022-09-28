@@ -29,5 +29,22 @@ header{
     border-radius: 10px;
 }
 main{
-    height: calc(100vh - 50px);
+    height: calc(100vh - 50px - 100px);
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img-container{
+    padding: 3px;
+    flex: 1 1 calc(100% / 7);
+}
+footer{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
