@@ -33,11 +33,11 @@ main{
     height: calc(100vh - 70px - 120px);
     max-width: 90vw;
     margin: auto;
-    padding-top: 70px;
-    padding-bottom: 500px;
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow: auto;
 }
 .img-container{
     position: relative;
@@ -75,4 +75,13 @@ footer{
 }
 .icon>i{
     font-size: xx-large;
+}
+.green{
+    color: #4BC800;
+}
+.end{
+    background-color: #4A4A4A;
+    color: red;
+    height: 100%;
+    padding: 0 1rem;
 }
